@@ -1,3 +1,3 @@
-# An IRL Sculk Shrieker
+# The IRL Sculk Shrieker
 > (warden sold separately)
 
