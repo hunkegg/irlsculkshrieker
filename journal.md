@@ -10,4 +10,8 @@ huge inspiration from [@aron huang's Minecraft Compass](https://hackclub.slack.c
 
 (dates are in mm/dd/yy again because 🦅)
 
-## 6/28/25
+## 6/28/25 - Figuring out electronics and design (a.k.a. da plan)
+Today I made the repo for this project, and started to plan out the internals of this sculk shrieker. <br/>
+
+The [sculk shrieker](https://minecraft.wiki/w/Sculk_Shrieker) is a block in Minecraft that *shrieks* when activated by a sculk sensor, which essentially is a microphone in our case since they are activated by sound. <br/>
+I plan to recreate this effect by having a microcontroller receive input via a microphone module, then play the game audio from a speaker + SD card. 
