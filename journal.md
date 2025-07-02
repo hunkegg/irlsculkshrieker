@@ -44,6 +44,10 @@ For the CAD, I plan to keep with the 16 x 16 pixel style of Minecraft, making th
 To help with painting, I will 3D print the white sections separately from the dark blue/black sections and gluing them together after coloring. In all, this should result in the bottom half, four white corners, and the jaws. <br/>
 I could also design the jaws to "socket" into the rest of the build for ease of assembly by making an indent inside the half-block portion and extending the jaws by a small amount, similar to how I designed the shells in my Engipad. <br/>
 
+I also thought about some extra features to *really* set in the details of the sculk shrieker, for example:
+* An integrated accelerometer to play the place/break sounds when it is picked up or put down
+* A button or some type of sensor to detect if something has touched the black part of the top of the shrieker, since shriekers can also be activated if the player walks on top of it
+
 time spent: 2 hours <br/>
 
 
