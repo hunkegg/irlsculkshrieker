@@ -48,6 +48,7 @@ I also thought about some extra features to *really* set in the details of the s
 * An integrated accelerometer to play the place/break sounds when it is picked up or put down
 * A button or some type of sensor to detect if something has touched the black part of the top of the shrieker, since shriekers can also be activated if the player walks on top of it
 * Engravings in the jaws/block that follow the texture of the in-game shrieker, such as the darker lines in the jaws standing in for grooves in them
+* Additional functionality as an alarm system by having the esp32 send out a message if the microphone is activated
 
 time spent: 2 hours <br/>
 
