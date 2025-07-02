@@ -24,6 +24,29 @@ From the blog post, I made up a quick BOM and looked on Aliexpress to find the p
 
 time spent: 2 hours
 
-## 7/1/25 - more planning
-locking in rn <br/>
+## 7/1/25 - more planning (the looks and internals)
+locking in imminent <br/>
+
+While I have most of the parts planned out, I still need to plan out how the shrieker will look like. <br/>
+The shrieker is a block with emmisive (glowing) textures, with an animated topside of two "souls" orbiting around the center. The block is made up of a half block (8 pixels tall) and four jaws that extend upwards. <br/>
+
+![shrieker](https://github.com/user-attachments/assets/9508c61b-a115-4367-9f56-786c3e763c72)
+
+I could place the speaker in the middle of the block, with a circular PCB of RGB lights or neopixels to simulate the souls moving around in the shrieker. All of the other components could be stored inside of the block and out of sight, while the microphone can be tucked away under or near one of the jaws to allow it to listen but also to be hidden.
+
+![plannin](https://github.com/user-attachments/assets/3c7bc64b-b689-4cce-92a1-25c75315e4db)
+
+Since most of the parts are on different breakout boards/modules, a pcb to hold everything *may* be overkill. I could instead try to design the 3D printed case to fit the modules, with the only PCB being to hold the animated RGB lights. <br/>
+
+![diagram](https://github.com/user-attachments/assets/151638f6-ba67-4c54-9d3c-84ffa42fc750)
+
+For the CAD, I plan to keep with the 16 x 16 pixel style of Minecraft, making the dimensions of my sculk shrieker 64mm xx 64mm with each pixel being 4mm wide. In game, the jaws actually *have* no thickness, so to keep consistency, I will also be making them a pixel thick (4mm thick). <br/>
+To help with painting, I will 3D print the white sections separately from the dark blue/black sections and gluing them together after coloring. In all, this should result in the bottom half, four white corners, and the jaws. <br/>
+I could also design the jaws to "socket" into the rest of the build for ease of assembly by making an indent inside the half-block portion and extending the jaws by a small amount, similar to how I designed the shells in my Engipad. <br/>
+
+time spent: 2 hours <br/>
+
+
+
+
 
