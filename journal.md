@@ -47,6 +47,7 @@ I could also design the jaws to "socket" into the rest of the build for ease of 
 I also thought about some extra features to *really* set in the details of the sculk shrieker, for example:
 * An integrated accelerometer to play the place/break sounds when it is picked up or put down
 * A button or some type of sensor to detect if something has touched the black part of the top of the shrieker, since shriekers can also be activated if the player walks on top of it
+* Engravings in the jaws/block that follow the texture of the in-game shrieker, such as the darker lines in the jaws standing in for grooves in them
 
 time spent: 2 hours <br/>
 
