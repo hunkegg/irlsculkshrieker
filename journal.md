@@ -30,7 +30,7 @@ locking in imminent <br/>
 While I have most of the parts planned out, I still need to plan out how the shrieker will look like. <br/>
 The shrieker is a block with emmisive (glowing) textures, with an animated topside of two "souls" orbiting around the center. The block is made up of a half block (8 pixels tall) and four jaws that extend upwards. <br/>
 
-![shrieker](https://github.com/user-attachments/assets/9508c61b-a115-4367-9f56-786c3e763c72)
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/89de6f86-02f5-4493-adea-a85e6943370d" />
 
 I could place the speaker in the middle of the block, with a circular PCB of RGB lights or neopixels to simulate the souls moving around in the shrieker. All of the other components could be stored inside of the block and out of sight, while the microphone can be tucked away under or near one of the jaws to allow it to listen but also to be hidden.
 
@@ -80,7 +80,7 @@ This was done because:
 
 After that, it was finally time to color. <br/>
 I found the texture for the block on the [Minecraft Wiki](https://minecraft.wiki/w/List_of_block_textures), and quickly realized that this specific block had the one of the most EGREGIOUS and EVIL gradients in the ENTIRETY of Minecraft, going from the ivory white of the jaws to a dark blue and black, making the whole model hard to color accurately <br/>
-> remember when i said that i made the extra details and textures because you can't get picture textures in Fusion? this is why lmfao
+> remember when i said that i made the extra details and textures because you can't get picture textures in Fusion? this is why lmfao <br/>
 > if i made the entire half block as one, it would look like a singular color (and thus look like shit)
 
 Anyways, I went back into drawing software, getting the colors I wanted and copying the hex codes to Fusion's appearance tool. I had to make another color for the sculk on the spot when coloring the two sculk halves, but we got there <br/>
