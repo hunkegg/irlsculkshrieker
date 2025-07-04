@@ -52,6 +52,44 @@ I also thought about some extra features to *really* set in the details of the s
 
 time spent: 2 hours <br/>
 
+## 7/3/25 - cadding and cool colors wow
+Today I started work on making the CAD for the shrieker. <br/>
+I started off making the half block of the shrieker and then the jaws, but soon ran into the issue of trying to extrude the jaws since Minecraft actually *doesn't* have any thickness for them. <br/>
+To save myself on the hassle of going back into sketches and changing dimensions, I made a custom parameter in Fusion to automatically adjust the thickness of the jaws named JawThickness and set it to multiple thicknesses. <br/>
+
+<img width="799" alt="image" src="https://github.com/user-attachments/assets/5d482335-ab93-47e5-9da9-323437007d26" /> <br/>
+
+I at first wanted to go 2.5mm thick to stay as true to the game as possible (thin), but I also found 4mm to be appealing due to pixel consistency + making the jaws seem *slightly* taller. <br/>
+I was pretty stuck on this decision, so I asked on the Slack and some friends and they all answered 4mm so I'll be doing that for the thickness. <br/>
+
+After that, I went around the block, adding in extra details found on the texture of the sculk shrieker. I *could* have painted these in after printing, but I suck at painting and found the surface in Fusion to be really *flat and boring* without the details or coloring. <br/>
+Furthermore, as far as I know, you can't get picture textures onto surfaces in Fusion without abusing the Decal tool a bunch, which would make the renders look incredibly bad lmao <br/>
+
+<img width="1117" alt="image" src="https://github.com/user-attachments/assets/8d034ef8-7d0d-4429-bbeb-af74182be116" /> <br/>
+> forgot to take pictures while modeling but you get the idea 
+
+Once I did that, I had to split the main half-block into two parts in order to fit the components inside of the block. While I could've gone with a basic cut across the middle, I figured that I should make the two lids in the shape of the sculk that grows on top of the block. <br/>
+This was done because:
+1. The two halves can interlock more easily, allowing for better alignment
+2. The shaped halves make painting much easier since I can isolate the darker colors of the block to the lighter blue of the sculk
+3. The corners of the top half being lower allows me to use shorter screws through the bottom
+4. The halves can be colored differently when rendering
+> it also looks REALLY cool when i split the block into two <br/>
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/0053d59a-c521-403d-85d5-c2a3ba2a62a4" /> <br/>
+
+After that, it was finally time to color. <br/>
+I found the texture for the block on the [Minecraft Wiki](https://minecraft.wiki/w/List_of_block_textures), and quickly realized that this specific block had the one of the most EGREGIOUS and EVIL gradients in the ENTIRETY of Minecraft, going from the ivory white of the jaws to a dark blue and black, making the whole model hard to color accurately <br/>
+> remember when i said that i made the extra details and textures because you can't get picture textures in Fusion? this is why lmfao
+> if i made the entire half block as one, it would look like a singular color (and thus look like shit)
+
+Anyways, I went back into drawing software, getting the colors I wanted and copying the hex codes to Fusion's appearance tool. I had to make another color for the sculk on the spot when coloring the two sculk halves, but we got there <br/>
+
+<img width="1306" alt="image" src="https://github.com/user-attachments/assets/8b92dae4-84b4-4200-a650-7eb115f30c6e" /> <br/>
+
+I also changed the wall thickness from 3mm to 7mm in order to support M3 screws to assemble the case <br/>
+
+time spent: 6 hours cadding and coloring
 
 
 
