@@ -96,10 +96,31 @@ america day wowee <br/>
 
 Today I didn't have as much time as normal due to my family going out to celebrate July 4th, but I managed to figure out the internals of the sculk shrieker, trying to pack in everything into the already very small space of 64mm x 64mm x 32mm. <br/>
 I started with importing all of the components from my Aliexpress list to Fusion by finding them on GrabCAD. I didn't find any for the specific speaker I found on Aliexpress, so in order to import it into my model, I had to reconstruct it with external documents and schematics from Alibaba and other internet images. <br/>
+> the speaker controller module also didn't come with the appropriate headers/connectors so I had to import and model those in as well 
 
 <img width="632" alt="image" src="https://github.com/user-attachments/assets/1934151b-71e5-43e6-b98a-3ef8d0e15c7c" /> <br/>
 ![image](https://github.com/user-attachments/assets/c1aca12f-8174-4e3d-b3ba-91f0d90fa078)
 ![image](https://github.com/user-attachments/assets/bc110c50-e9a7-43f2-a5d5-7d481ce729c9)
+
+Once I had the parts in, I inserted them into the shrieker model and started to move and position them around. To improve on the ease of printing/building and to cut costs on screws, I decided to not create any screw holes to mount the modules, and instead I opted to create slots for the modules to fit inside and gluing/taping them once in. <br/>
+I also plan on handwiring everything for this project, since a pcb to fit everything in this build is gonna be *way* out of size. <br/>
+
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/cdc23552-1b74-4436-9246-69757c28217c" /> <br/>
+
+This was also the time that I realized that the speaker I am using is *fucking massive* <br/>
+
+<img width="867" alt="image" src="https://github.com/user-attachments/assets/1657d85f-a8a3-4060-9ce4-8b3ac9d1eabe" /> <br/>
+
+Everything fit inside nicely, but I had some issue finding where to place the microphone. I originally said that I could place it on or near the jaws, but turns out that the microphone is significantly bigger than the scale of the jaws. <br/>
+The quality of the sound needed doesn't have to be incredible since we're only picking up generally loud sounds, but for now I am placing it next to the speaker in one of the corners of the jaws. When assembling and testing the build, I may pack it inside to make it look more complete, but this will do for now (plus when looking at certain angles, the microphone is hidden from sight) <br/>
+
+<img width="308" alt="image" src="https://github.com/user-attachments/assets/405d62f5-fd24-496c-8e3b-f37de3772fe1" /> <br/>
+
+All this leaves now is creating the PCB to animate the souls circling in the shrieker and the software to accompany it. <br/>
+Considering the space left on the model, I may have to place the PCB on top of the block and cover it up with a separate plate similarly to the OLED on my previous Engipad to preserve the printability of the shells.
+> considering time constraints on pcb shipping and the deadline of august 7, the pcb *may* not be included (but that's a last resort honestly)
+
+time spent: 3 hours 
 
 
 
