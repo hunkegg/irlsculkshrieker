@@ -143,3 +143,6 @@ I also found a seller on Aliexpress that sells tiny 3mm blue LEDs for much cheap
 
 I decided that I will go with the 3mm tiny LEDs to progress, leading me to start working out the PCB and wiring diagram in KiCad. <br/>
 I found a neat ESP32 symbol by [this post](https://forum.kicad.info/t/esp32-dev-ch340-c-symbol-and-footprint/56483/12) on the KiCad forums, and used the handy [symbol guide](https://highway.hackclub.com/guides/symbol-design) by @espcaa to make all of the components.
+
+I also found out that the Micro SD card module I was using is incompatable with the ESP32, since it operates at 5V, while the ESP32 can only supply 3.3V and would otherwise damage the microcontroller 💔 <br/>
+I tried finding alternatives on Aliexpress, but found most of the sellers to be relatively shabby (<100 sold + new stores) or lacking proper datasheets/documentation, which makes buying from Aliexpress more so a *gamble* on whether or not the module will fry my ESP32. In the end, I ended up using a breakout board from [Adafruit](https://www.adafruit.com/product/4682) for $3.50, which operates at 3.3V.
