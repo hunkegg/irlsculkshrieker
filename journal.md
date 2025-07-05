@@ -135,3 +135,8 @@ I also found a seller on Aliexpress that sells tiny 3mm blue LEDs for much cheap
 
 <img width="1115" alt="image" src="https://github.com/user-attachments/assets/cd0a6c98-3982-4c23-bc4a-67710dad3651" /> <br/>
 
+### TLDR; <br/>
+|  | pros | cons |
+| --- | --- | --- |
+| 3mm tiny leds | cheaper, easier to solder, simple | more GPIO or research needed |
+| RGB SMD leds | configurable, easy to setup, cleaner | may need expensive PCBA or lots of tricky smd soldering, part sourcing may be hard/expensive as well |
