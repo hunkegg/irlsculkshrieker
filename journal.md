@@ -122,6 +122,16 @@ Considering the space left on the model, I may have to place the PCB on top of t
 
 time spent: 3 hours 
 
+## 7/5/25 - LED and PCB designing
+Today I woke up and started working on how to make the souls on top of the shrieker function. <br/>
+My mind instantly went to Neopixels, similar to the RGB lights on the Hackpad. I thought of repeating that same wiring for this, essentially extending it into a circle around the block, but realized that it would be time consuming to hand solder. Additionally, Adafruit and many other sources recommend adding a 0.1 μF capacitor for each light and a resistor, which would make me more inclined to pick PCBA which would also drive up costs for this part of the build. <br/>
+However, RGB lights often have more configurable colors and premade examples or libraries, which would make the coding process for this part much easier. <br/>
 
+<img width="1402" alt="image" src="https://github.com/user-attachments/assets/f5f01775-9463-4c44-ae3b-bb582b317dec" />
 
+I could also try using regular old blue LEDs, but come with the cost of less direct control over the color and code. I can wire the PCB to have multiple rings of LEDs to simulate the size of the souls and connect each "row" to a singular GPIO pin. This comes with the obvious drawback of needing lots of GPIO, but the esp32 already has lots of pins even after accounting for the modules for the shrieker's function. <br/>
+There's most likely a much cleaner and smarter solution, but that'll require more research later in the day. <br/>
+I also found a seller on Aliexpress that sells tiny 3mm blue LEDs for much cheaper than the RGB SMD lights. <br/>
+
+<img width="1115" alt="image" src="https://github.com/user-attachments/assets/cd0a6c98-3982-4c23-bc4a-67710dad3651" /> <br/>
 
