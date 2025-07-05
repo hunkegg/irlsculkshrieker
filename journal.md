@@ -89,7 +89,17 @@ Anyways, I went back into drawing software, getting the colors I wanted and copy
 
 I also changed the wall thickness from 3mm to 7mm in order to support M3 screws to assemble the case <br/>
 
-time spent: 6 hours cadding and coloring
+time spent: 7 hours cadding and coloring
+
+## 7/4/25 - more cadding
+america day wowee <br/>
+
+Today I didn't have as much time as normal due to my family going out to celebrate July 4th, but I managed to figure out the internals of the sculk shrieker, trying to pack in everything into the already very small space of 64mm x 64mm x 32mm. <br/>
+I started with importing all of the components from my Aliexpress list to Fusion by finding them on GrabCAD. I didn't find any for the specific speaker I found on Aliexpress, so in order to import it into my model, I had to reconstruct it with external documents and schematics from Alibaba and other internet images. <br/>
+
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/1934151b-71e5-43e6-b98a-3ef8d0e15c7c" /> <br/>
+![image](https://github.com/user-attachments/assets/c1aca12f-8174-4e3d-b3ba-91f0d90fa078)
+![image](https://github.com/user-attachments/assets/bc110c50-e9a7-43f2-a5d5-7d481ce729c9)
 
 
 
