@@ -140,3 +140,6 @@ I also found a seller on Aliexpress that sells tiny 3mm blue LEDs for much cheap
 | --- | --- | --- |
 | 3mm tiny leds | cheaper, easier to solder, simple | more GPIO or research needed |
 | RGB SMD leds | configurable, easy to setup, cleaner | may need expensive PCBA or lots of tricky smd soldering, part sourcing may be hard/expensive as well |
+
+I decided that I will go with the 3mm tiny LEDs to progress, leading me to start working out the PCB and wiring diagram in KiCad. <br/>
+I found a neat ESP32 symbol by [this post](https://forum.kicad.info/t/esp32-dev-ch340-c-symbol-and-footprint/56483/12) on the KiCad forums, and used the handy [symbol guide](https://highway.hackclub.com/guides/symbol-design) by @espcaa to make all of the components.
